@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-- Box icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Courses</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+        <label class="logo"><h1>CStore</h1></label>
+        <ul>
+            <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="product.html" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+                <a href="signup.html" class="nav-link">Sign Up</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="account.html" class="nav-link">User Account</a>
+            </li>
+            <li class="nav-item">
+                <a href="cart.html" class="nav-link">History
+                    </a>
+            </li>
+            <li class="nav-item">
+                <a href="logout.html" class="nav-link">Logout
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- All Products -->
+    <section class="section all-products" id="products">
+        <div class="top container">
+            <h1>All Courses</h1>
+            <form>
+                <select>
+                    <option value="1">Sort By Rating</option>
+                    <option value="2">Sort By Price</option>
+                    <option value="3">Sort By Popularity</option>
+                    <option value="4">Sort By Sale</option>
+                </select>
+                <span><i class='bx bx-chevron-down'></i></span>
+            </form>
+        </div>
+
+        <div class="product-center container">
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/c++.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="#">
+                        <h3>Basics with C++</h3>
+                    </a>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">Rs 799</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/python.png" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="#">
+                        <h3>Python For Everybody</h3>
+                    </a>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">Rs 670</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/Data Structures And Algorithms.png" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="product-details.html">
+                        <h3>Master DSA</h3>
+                    </a>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">Rs 800</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/flutter.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Flutter From Scratch</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">Free</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/Aptitude.png" alt="">
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <a href="#">
+                        <h3>AptiGuide</h3>
+                    </a>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">Rs 770</h4>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/dbms.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>DBMS</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">Rs 565</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/bigdata.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Big Data Analytics</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">Rs 711</h4>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-header">
+                    <img src="./images/os.png" alt="">
+
+                    <ul class="icons">
+                        <span><i class="bx bx-heart"></i></span>
+                        <span><i class="bx bx-shopping-bag"></i></span>
+                        <span><i class="bx bx-search"></i></span>
+                    </ul>
+                </div>
+                <div class="product-footer">
+                    <h3>Operating System Concepts</h3>
+                    <div class="rating">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bx-star"></i>
+                    </div>
+                    <h4 class="price">Free</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pagination">
+        <div class=" container">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span><i class='bx bx-right-arrow-alt'></i></span>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-center">
+                    <h3>EXTRAS</h3>
+                    <a href="#">Gift Certificates</a>
+                    <a href="#">Affiliate</a>
+                    <a href="#">Specials</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-center">
+                    <h3>INFORMATION</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-center">
+                    <h3>MY ACCOUNT</h3>
+                    <a href="#">My Account</a>
+                    <a href="#">Order History</a>
+                    <a href="#">Wish List</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">Returns</a>
+                </div>
+                <div class="footer-center">
+                    <h3>REACH US</h3>
+                    <div>
+                        <span>
+          <i class="fas fa-map-marker-alt"></i>
+        </span>CStore,City Complex,Mangalore,Karnataka
+                    </div>
+                    <div>
+                        <span>
+          <i class="far fa-envelope"></i>
+        </span> cstore@gmail.com
+                    </div>
+                    <div>
+                        <span>
+          <i class="fas fa-phone"></i>
+        </span>(+91)7765091247
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
